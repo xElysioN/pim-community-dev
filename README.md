@@ -12,9 +12,11 @@ this repository and submit a pull request.
 
 | [Master][Master] | [1.7][1.7] | [1.6][1.6] | [1.5][1.5] | [Scrutinizer][Scrutinizer] | [Crowdin][Crowdin] |
 |:----------------:|:----------:|:----------:|:----------:|:--:|:--:|
-| [![Build status][Master image]][Master] | [![Build status][1.7 image]][1.7] | [![Build status][1.6 image]][1.6] | [![Build status][1.5 image]][1.5] | [![Scrutinizer Quality Score][Scrutinizer image]][Scrutinizer] | [![Translation level][Crowdin image]][Crowdin] |
+| ![Build status](https://core-ci.akeneo.com/job/akeneo/job/pim-community-dev/job/master/badge/icon) | [![Build status][1.7 image]][1.7] | [![Build status][1.6 image]][1.6] | [![Build status][1.5 image]][1.5] | [![Scrutinizer Quality Score][Scrutinizer image]][Scrutinizer] | [![Translation level][Crowdin image]][Crowdin] |
 
-  [Master image]: https://core-ci.akeneo.com/job/akeneo/job/pim-community-dev/job/master/badge/icon
+<img src="https://core-ci.akeneo.com/job/akeneo/job/pim-community-dev/job/master/badge/icon"/>
+
+  [Master image]:
   [Master]: https://travis-ci.org/akeneo/pim-community-dev/tree/master
   [1.7 image]: https://core-ci.akeneo.com/job/akeneo/job/pim-community-dev/job/1.7/badge/icon
   [1.7]: https://github.com/akeneo/pim-community-dev/tree/1.7
