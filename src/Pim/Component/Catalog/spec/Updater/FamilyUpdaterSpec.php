@@ -70,7 +70,6 @@ class FamilyUpdaterSpec extends ObjectBehavior
         $channelRepository,
         $attributeRequirementRepo,
         $translatableUpdater,
-        FamilyTranslation $translation,
         FamilyInterface $family,
         AttributeRepositoryInterface $attributeRepository,
         AttributeInterface $skuAttribute,

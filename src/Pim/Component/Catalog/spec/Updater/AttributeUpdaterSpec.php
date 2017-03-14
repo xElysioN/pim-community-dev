@@ -57,7 +57,6 @@ class AttributeUpdaterSpec extends ObjectBehavior
         $registry,
         $translatableUpdater,
         AttributeInterface $attribute,
-        AttributeTranslation $translation,
         AttributeGroupInterface $attributeGroup,
         PropertyAccessor $accessor,
         AttributeTypeInterface $attributeType
@@ -96,7 +95,6 @@ class AttributeUpdaterSpec extends ObjectBehavior
         $registry,
         $translatableUpdater,
         AttributeInterface $attribute,
-        AttributeTranslation $translation,
         AttributeTypeInterface $attributeType
     ) {
         $attribute->getId()->willReturn(null);
