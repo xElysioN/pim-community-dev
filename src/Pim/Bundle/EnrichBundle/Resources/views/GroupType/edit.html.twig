@@ -40,6 +40,8 @@
                                                 navigation.setPinButtonsData('title', navTitle);
                                                 navigation.setPinButtonsData('title-rendered-short', newTitle);
 
+                                                console.debug(groupType)
+
                                                 FormBuilder.build(groupType.meta.form)
                                                     .then(function (form) {
                                                         form.setData(groupType);

@@ -9,17 +9,10 @@ pim_enrich_grouptype_create:
     defaults: { _controller: pim_enrich.controller.group_type:createAction }
 
 pim_enrich_grouptype_edit:
-    path: /{id}/edit
+    path: /{code}/edit
     defaults: { _controller: pim_enrich.controller.group_type:editAction }
     requirements:
-        id: \d+
-
-pim_enrich_grouptype_remove:
-    path: /{id}/remove
-    defaults: { _controller: pim_enrich.controller.group_type:removeAction }
-    requirements:
-        id: \d+
-    methods: [DELETE]
+        identifier: '[a-zA-Z0-9_]+'
 
 pim_enrich_grouptype_rest_index:
     path: /rest

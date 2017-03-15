@@ -95,7 +95,7 @@ class GroupTypeController
         $groupType = $this->getGroupTypeOr404($identifier);
 
         return new JsonResponse(
-            $this->normalizer->normalize($groupType, 'internal_api')
+            $this->normalizer->normalize($groupType, 'standard')
         );
     }
 
